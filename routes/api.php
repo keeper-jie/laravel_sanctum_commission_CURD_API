@@ -32,6 +32,6 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::resource('products', ProductController::class);
 });
 
-Route::post('/hello', function () {
-    return 'hello kermit';
-});
+// Route::post('/hello', function () {
+//     return 'hello kermit';
+// });
